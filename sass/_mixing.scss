@@ -1,0 +1,6 @@
+@mixin d_flex($gap:20px, $j:center){
+    display: flex;
+    align-items: center;
+    justify-content: $j;
+    gap: $gap;
+}
